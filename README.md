@@ -33,6 +33,10 @@
 
 ## 🚀 Quick Start
 
+### 🌐 Try It Online
+
+**🎵 [Live Demo](https://tts-koboro.streamlit.app)** - Experience TTS-Kokoro instantly in your browser!
+
 ### 📋 Prerequisites
 - **Python 3.11+** installed on your system
 - **[uv](https://docs.astral.sh/uv/)** package manager (recommended)
@@ -43,8 +47,8 @@
 <summary><b>📥 Step 1: Clone the repository</b></summary>
 
 ```bash
-git clone https://github.com/yourusername/TTS-Kokoro.git
-cd TTS-Kokoro
+git clone https://github.com/HamidBasri/streamlit-tts-kokoro.git
+cd streamlit-tts-kokoro
 ```
 </details>
 
@@ -112,7 +116,7 @@ Navigate to **`http://localhost:8501`** and start creating speech! 🎵
 ### 📁 Project Structure
 
 ```
-TTS-Kokoro/
+streamlit-tts-kokoro/
 ├── 📁 static/           # Static assets (CSS, fonts)
 ├── 📄 homepage.py       # Main Streamlit application
 ├── 📄 constants.py      # Language and voice configurations
@@ -121,7 +125,6 @@ TTS-Kokoro/
 ├── 📄 justfile          # Development commands
 └── 📄 README.md         # This file
 ```
-
 ### 🚀 Available Commands
 
 <details>
@@ -220,8 +223,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 | Support Type | Link |
 |--------------|------|
-| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/yourusername/TTS-Kokoro/issues) |
-| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/yourusername/TTS-Kokoro/discussions) |
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/HamidBasri/streamlit-tts-kokoro/issues) |
+| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/HamidBasri/streamlit-tts-kokoro/discussions) |
 | 📧 **Email** | dev.hamidbasri@gmail.com |
 
 </div>
