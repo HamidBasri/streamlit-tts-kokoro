@@ -108,6 +108,37 @@ def main():
     else:
         st.warning("Please enter some text.")
 
+    # --- Sticky footer ---
+
+
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        color: #555;
+        border-top: 1px solid #ddd;
+    }
+    .footer a {
+        color: blue;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    </style>
+    <div class="footer">
+        Built with 💙 by Hamid Basri | <a href="https://github.com/hamidbasri" target="_blank">GitHub</a>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 if __name__ == "__main__":
     main()
