@@ -77,7 +77,7 @@ def main():
         st.button("Clear", key="clear_btn", on_click=lambda: set_text(""))
 
     # Generate speech button
-    if "text" in st.session_state and st.session_state.text.strip() == "":
+    if "text" in st.session_state and st.session_state.text.strip() != "":
         st.divider()
         with st.spinner("Generating audio..."):
             generator = pipeline(text, voice=selected_voice, speed=1.0, split_pattern=r"\n+")
