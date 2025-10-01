@@ -1,0 +1,80 @@
+[server]
+# Server configuration
+port = 8501
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+enableStaticServing = true
+
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[client]
+# Client-side settings
+showErrorDetails = "full" 
+
+[runner]
+# Runner settings
+magicEnabled = true
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s.%(msecs)03d %(levelname)s - %(name)s - %(message)s"
+
+
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/fonts/static/Poppins-VariableFont_wght.ttf"
+unicodeRange="U+0025-00FF, U+4??"
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "app/fonts/static/Poppins-Bold.ttf"
+style = "normal"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/fonts/static/Poppins-BoldItalic.ttf"
+style = "italic"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/fonts/static/Poppins-Italic.ttf"
+style = "italic"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/fonts/static/Poppins-Regular.ttf"
+style = "normal"
+weight = 400
+
+[theme]
+primaryColor = "#cb785c"
+backgroundColor = "#fdfdf8"
+secondaryBackgroundColor = "#ecebe3"
+textColor = "#3d3a2a"
+linkColor = "#3d3a2a"
+borderColor = "#d3d2ca"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "full"
+font = "Poppins, sans-serif"
+headingFontWeights = [600,500,500,500,500,500]
+headingFontSizes = ["3rem", "2rem"]
+codeFont = "SpaceMono"
+codeFontSize = ".75rem"
+codeBackgroundColor = "#ecebe4"
+showSidebarBorder = true
+chartCategoricalColors = ["#0ea5e9", "#059669", "#fbbf24"]
